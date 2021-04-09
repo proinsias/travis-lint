@@ -1,0 +1,8 @@
+---
+
+- id: travis-lint
+  name: travis-lint
+  description: This hook lints .travis.yml files.
+  entry: travis-lint
+  language: script
+  files: \.travis\.yml$
