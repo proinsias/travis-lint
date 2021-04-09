@@ -1,37 +1,16 @@
-## Welcome to GitHub Pages
+# travis-lint
 
-You can use the [editor on GitHub](https://github.com/proinsias/travis-lint/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Lint `.travis.yml` files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
+[![GitHub Actions](https://github.com/proinsias/travis-lint/workflows/Actions/badge.svg)](https://github.com/proinsias/travis-lint/actions/workflows/actions.yml)
 
-### Markdown
+Supports being used as a [pre-commit.com](https://pre-commit.com) hook.
+Add this to your `.pre-commit-config.yaml`:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```yaml
+-   repo: https://github.com/proinsias/travis-lint/
+    rev: v1.0.0  # Use the ref you want to point at
+    hooks:
+      - id: travis-lint
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/proinsias/travis-lint/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
