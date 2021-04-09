@@ -15,4 +15,6 @@ Add this to your `.pre-commit-config.yaml`:
       - id: travis-lint
 ```
 
-This is taken from travis-ci/travis.rb#307 which has been left to languish on the vine by the `travis.rb` maintainers.
+This is taken from
+[travis-ci/travis.rb#307](https://github.com/travis-ci/travis.rb/pull/307)
+which has been left to languish on the vine by the `travis.rb` maintainers.
