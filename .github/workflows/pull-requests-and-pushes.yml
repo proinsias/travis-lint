@@ -1,6 +1,6 @@
 ---
 
-name: Actions
+name: Pull Requests & Pushes
 
 # yamllint disable-line rule:truthy
 on: [push, pull_request]
@@ -14,9 +14,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-
-      - name: Pre-commit autoupdate
-        uses: browniebroke/pre-commit-autoupdate-action@v1.0.0
 
       - name: pre-commit
         uses: pre-commit/action@v2.0.2
