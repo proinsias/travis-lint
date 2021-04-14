@@ -60,7 +60,6 @@ repos:
     hooks:
       - id: forbid-binary
       - id: git-check  # Configure in .gitattributes
-      - id: git-dirty  # Configure in .gitignore
 
   - repo: https://github.com/Lucas-C/pre-commit-hooks
     rev: v1.1.9
