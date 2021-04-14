@@ -41,7 +41,7 @@ repos:
   # Markdown
 
   - repo: https://github.com/executablebooks/mdformat
-    rev: 0.6.4
+    rev: 0.7.1
     hooks:
       - id: mdformat
 
