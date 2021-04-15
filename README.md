@@ -3,6 +3,7 @@
 Lint `.travis.yml` files.
 
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
+[![Cron Jobs](https://github.com/proinsias/travis-lint/workflows/Cron%20Jobs/badge.svg)](https://github.com/proinsias/travis-lint/actions/workflows/cronjobs.yml)
 [![Pull Requests & Pushes](https://github.com/proinsias/travis-lint/workflows/Pull%20Requests%20%26%20Pushes/badge.svg)](https://github.com/proinsias/travis-lint/actions/workflows/pull-requests-and-pushes.yml)
 [![ShiftLeft Scan](https://github.com/proinsias/travis-lint/workflows/ShiftLeft%20Scan/badge.svg)](https://github.com/proinsias/travis-lint/actions/workflows/shiftleft-analysis.yml)
 [![Mergify Status][mergify-status]][mergify]
