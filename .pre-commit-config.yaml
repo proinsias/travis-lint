@@ -34,7 +34,7 @@ repos:
   # Git
 
   - repo: https://github.com/jorisroovers/gitlint
-    rev: v0.15.0
+    rev: v0.15.1
     hooks:
       - id: gitlint
 
