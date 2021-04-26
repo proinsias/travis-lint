@@ -61,7 +61,7 @@ jobs:
           locale: "US"
 
       - name: pre-commit
-        uses: pre-commit/action@v2.0.2
+        uses: pre-commit/action@v2.0.3
 
       - name: shellcheck
         uses: reviewdog/action-shellcheck@v1
