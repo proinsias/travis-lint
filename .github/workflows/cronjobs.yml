@@ -65,7 +65,7 @@ jobs:
       - name: Dependabot Auto Merge
         uses: PabioHQ/dependabot-pr-action@v1.1.12
         with:
-          github-token: ${{ secrets.github_token }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
           approve: true
           auto-level: true
           merge: true
