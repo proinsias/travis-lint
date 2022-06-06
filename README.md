@@ -12,10 +12,10 @@ Supports being used as a [pre-commit.com](https://pre-commit.com) hook.
 Add this to your `.pre-commit-config.yaml`:
 
 ```yaml
--   repo: https://github.com/proinsias/travis-lint/
-    rev: v1.0.0  # Use the ref you want to point at
-    hooks:
-      - id: travis-lint
+- repo: https://github.com/proinsias/travis-lint/
+  rev: v1.0.0 # Use the ref you want to point at
+  hooks:
+    - id: travis-lint
 ```
 
 This is taken from
